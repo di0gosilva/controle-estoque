@@ -20,10 +20,15 @@ body {
 a {
   text-decoration: none;
   color: black;
+  font-size: 18px;
 }
 
 a:hover {
   text-decoration: underline;
+}
+
+h1 {
+  font-size: 48px;
 }
 
 .icon-voltar {
