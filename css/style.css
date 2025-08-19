@@ -49,3 +49,71 @@ a:hover {
   gap: 14px;
   margin-top: 10px;
 }
+
+#lancamentoForm {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 20px auto;
+  padding: 15px;
+  width: 90%;
+  background: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+#lancamentoForm input,
+#lancamentoForm button {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+#lancamentoForm input {
+  flex: 1 1 180px;
+}
+
+#lancamentoForm button {
+  background: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#lancamentoForm button:hover {
+  background: rgb(48, 48, 48);
+}
+
+/* Estilo da tabela */
+table {
+  width: 90%;
+  margin: 10px auto;
+  border-collapse: collapse;
+  background: white;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+th, td {
+  padding: 12px 15px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background: black;
+  color: white;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+tr:hover {
+  background: #f1f1f1;
+}
+
+#estoqueTable {
+  margin-top: 30px;
+}

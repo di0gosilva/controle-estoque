@@ -5,11 +5,31 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Lançamentos</title>
   <link rel="stylesheet" href="../css/style.css">
+  <script type="module" src="../js/lancamentos.js" defer></script>
 </head>
 <body>
   <div class="menu">
     <a href="../index.html" class="icon-voltar">←</a>
     <h1>Entrada | Saída</h1>
   </div>
+
+  <form id="lancamentoForm">
+    <input type="date" id="data">
+    <input type="text" id="tipo" placeholder="Tipo (Entrada/Saída)">
+    <input type="text" id="descricao" placeholder="Descrição">
+    <input type="text" id="produto" placeholder="Produto">
+    <input type="number" id="quantidade" placeholder="Quantidade">
+    <button type="submit">Adicionar</button>
+  </form>
+
+  <table id="lancamentoTable">
+    <tr>
+      <th>Data</th>
+      <th>Tipo</th>
+      <th>Descrição</th>
+      <th>Produto</th>
+      <th>Quantidade</th>
+    </tr>
+  </table>
 </body>
 </html>
